@@ -18,7 +18,7 @@
   </head>
   <body>
     <header class="page-header">
-      <div class="container">
+      <div class="container header-container">
         <nav class="nav">
           <a href="./index.html" class="link-logo-header"
             >Web<span class="logo-color">Studio</span></a
@@ -45,9 +45,14 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="nav-btn-mob">
+          <svg class="nav-mob-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-heroicons-menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
-    <main>
+    <!-- <main>
       <section class="section-one">
         <div class="container">
           <h1 class="section-one-title">
@@ -688,13 +693,17 @@
               name="user-privacy"
             />
             <label class="lb-check" for="user-privacy">
-              <span class="lb-span">
-                <svg class="lb-span-icon" width="10" height="8">
-                  <use href="./images/icons.svg#icon-check"></use>
-                </svg>
-              </span>
-              I accept the terms and conditions of the
-              <a class="modal-link" href="">Privacy Policy</a>
+              <div class="check-wrapper">
+                <span class="lb-span">
+                  <svg class="lb-span-icon" width="10" height="8">
+                    <use href="./images/icons.svg#icon-check"></use>
+                  </svg>
+                </span>
+                <div>
+                  I accept the terms and conditions of the
+                  <a class="modal-link" href="">Privacy Policy</a>
+                </div>
+              </div>
             </label>
           </div>
           <button class="modal-btn-end" type="button">Send</button>
@@ -754,6 +763,6 @@
           </li>
         </ul>
       </div>
-    </div>
+    </div> -->
   </body>
 </html>
