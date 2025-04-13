@@ -882,6 +882,12 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 0;
+    pointer-events: none;
+}
+.modal-menu.is-open{
+    opacity: 1;
+    pointer-events: auto;
 }
 .menu{
     position: absolute;
@@ -889,7 +895,7 @@ img{
     left: 0;
     background: #fcfcfc;
     border-radius: 4px;
-    width: 100%;
+    width: 320px;
     height: 100%;
     padding: 72px 24px 40px 16px;
 }
@@ -931,9 +937,4 @@ img{
 .list-icons-menu{
     gap: 40px;
 }
-@media screen and (min-width: 768px) {
-    .modal-menu{
-        opacity: 0;
-        pointer-events: none;
-    }
-}
+
