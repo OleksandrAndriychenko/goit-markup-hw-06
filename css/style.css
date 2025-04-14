@@ -509,6 +509,7 @@ img{
     display: flex;
     flex-direction: column;
     gap: 48px;
+    align-items: center;
 }
 .section-four-list-item{
     width: 288px;
@@ -869,6 +870,8 @@ img{
     margin-bottom: 24px;
 }
 .lb-check{
+    display: flex;
+    align-items: center;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
